@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Linking Bootstrap, Fontawesome and Googleapis  -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
@@ -20,7 +21,9 @@
     <p id="currentDay" class="lead"></p>
     <button class="btn btn-danger" id="clearBtn">Clear Planner</button>
   </header>
-  <div class="container">
+  <!-- Planner section -->
+  <section class="container">
+    <!-- 9AM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>9AM</p>
@@ -28,6 +31,7 @@
       <textarea class="textarea col-10" name="nine" id="textarea9"></textarea>
       <button id="button9" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
+    <!-- 10AM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>10AM</p>
@@ -35,6 +39,7 @@
       <textarea class="textarea col-10" name="ten" id="textarea10"></textarea>
       <button id="button10" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
+    <!-- 11AM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>11AM</p>
@@ -42,6 +47,7 @@
       <textarea class="textarea col-10" name="eleven" id="textarea11"></textarea>
       <button id="button11" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
+    <!-- 12PM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>12AM</p>
@@ -49,6 +55,7 @@
       <textarea class="textarea col-10" name="twelve" id="textarea12"></textarea>
       <button id="button12" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
+    <!-- 1PM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>1PM</p>
@@ -56,6 +63,7 @@
       <textarea class="textarea col-10" name="one" id="textarea13"></textarea>
       <button id="button1" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
+    <!-- 2PM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>2PM</p>
@@ -63,6 +71,7 @@
       <textarea class="textarea col-10" name="two" id="textarea14"></textarea>
       <button id="button2" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
+    <!-- 3PM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>3PM</p>
@@ -70,6 +79,7 @@
       <textarea class="textarea col-10" name="three" id="textarea15"></textarea>
       <button id="button3" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
+    <!-- 4PM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>4PM</p>
@@ -77,6 +87,7 @@
       <textarea class="textarea col-10" name="four" id="textarea16"></textarea>
       <button id="button4" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
+    <!-- 5PM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>5PM</p>
@@ -84,6 +95,7 @@
       <textarea class="textarea col-10" name="five" id="textarea17"></textarea>
       <button id="button5" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
+    <!-- 6PM Row -->
     <div class="row">
       <div class="hour col-1">
         <p>6PM</p>
@@ -91,10 +103,12 @@
       <textarea class="textarea col-10" name="six" id="textarea18"></textarea>
       <button id="button6" class="saveBtn col-1" type="submit"><i class="fas fa-save"></i></button>
     </div>
-  </div>
+  </section>
+  <!-- Footer section -->
   <footer>
     <h4>Made by Alex McKay</h4>
   </footer>
+  <!-- Linking JQuery and Moment.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="assets/js/script.js"></script>

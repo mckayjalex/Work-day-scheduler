@@ -1,9 +1,10 @@
+/* General styling to the body tag */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
-
+/* Styling of each text area */
 textarea {
   background: transparent;
   border: none;
@@ -13,6 +14,7 @@ textarea {
   padding: 10px;
   height: 100px;
 }
+/* Adding styling to the footer at the bottom of the page */
 footer {
   display: flex;
   justify-content: center;
@@ -22,6 +24,7 @@ footer {
   margin-top: 30px;
   color: white;
 }
+/* Adding styling to the header at the top of the page */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -44,7 +47,7 @@ footer {
   height: 100px;
   border-top: 1px solid white;
 }
-
+/* Styling of the time section to the left of each textarea */
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -67,7 +70,7 @@ footer {
   background-color: #77dd77;
   color: white;
 }
-
+/* Styling the save buttons to the right of the textarea */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
